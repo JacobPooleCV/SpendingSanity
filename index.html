@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Spend Your Sanity on High School Classes!</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <div class="profile">
+                <img src="profile.jpg" alt="Profile Picture">
+                <p>Sanity: <span id="sanity-percentage">100%</span></p>
+            </div>
+            <h1>Spend Your Sanity on High School Classes!</h1>
+            <p>Welcome to our website where you can choose your high school classes!</p>
+        </header>
+
+        <section id="class-selection">
+            <div class="class-selection-heading">
+                <h2>Class Selection</h2>
+            </div>
+            <div class="dropdown-container">
+                <select id="year-of-study" onchange="updateClassOptions()">
+                    <option value="1" selected>Year 1</option>
+                    <option value="2">Year 2</option>
+                    <option value="3">Year 3</option>
+                    <option value="4">Year 4</option>
+                    <!-- Add more options for subsequent years as needed -->
+                </select>
+            </div>
+            <div class="class-grid" id="class-grid">
+                <!-- Classes will be dynamically populated here based on the selected year -->
+            </div>
+        </section>
+
+        <section id="confirmation">
+            <h2>Confirmation</h2>
+            <p>You have selected the following classes:</p>
+            <ul id="selected-classes">
+                <!-- Selected classes will be dynamically added here -->
+            </ul>
+            <p>Total Sanity Spent: <span id="final-sanity" class="large">0</span>%</p>
+            <button onclick="goBack()">Back</button>
+            <button onclick="confirmSelection()">Confirm Selection</button>
+        </section>
+
+        <section id="confirmation" style="display: none;">
+            <h2>Confirmation</h2>
+            <p>You have selected the following classes:</p>
+            <ul id="selected-classes">
+                <!-- Selected classes will be dynamically added here -->
+            </ul>
+            <p>Total Sanity Spent: <span id="final-sanity" class="large">0</span>%</p>
+            <button onclick="confirmSelection()">Confirm Selection</button>
+            <button onclick="goBack()">Back</button>
+        </section>
+
+        <footer>
+            <p>&copy; 2024 YourWebsiteName. All rights reserved.</p>
+        </footer>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
