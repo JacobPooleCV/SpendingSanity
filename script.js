@@ -152,7 +152,12 @@ function updateClassOptions() {
                 { name: "Art 1-2", sanityCost: 5 },
                 { name: "Cinematography 1-2", sanityCost: 10 },
                 { name: "Entertainment and Live Technology 1-2", sanityCost: 10 },
-                { name: "Graphic Design 1-2", sanityCost: 10 }
+                { name: "Graphic Design 1-2", sanityCost: 10 },
+                { name: "Government", sanityCost: 10 },
+                { name: "AP Government", sanityCost: 10 },
+                { name: "Economics", sanityCost: 10 },
+                { name: "AP Economics", sanityCost: 10 },
+                { name: "AP Statistics", sanityCost: 10 }
             ];
             break;
         // Add cases for subsequent years as needed
