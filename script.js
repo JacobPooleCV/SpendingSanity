@@ -101,27 +101,27 @@ function updateClassOptions() {
     switch(year) {
         case "1":
             classes = [
-                { name: "Math", sanityCost: 5 },
-                { name: "English", sanityCost: 3 },
-                { name: "Human Geography", sanityCost: 4 },
-                { name: "AP Human Geography", sanityCost: 5 },
-                { name: "PE", sanityCost: 2 },
-                { name: "Living Earth", sanityCost: 5 },
-                { name: "American History", sanityCost: 5 }
+                { name: "Math", sanityCost: 10 },
+                { name: "English", sanityCost: 15 },
+                { name: "Human Geography", sanityCost: 10 },
+                { name: "AP Human Geography", sanityCost: 20 },
+                { name: "PE", sanityCost: 5 },
+                { name: "Living Earth", sanityCost: 20 },
+                { name: "American History", sanityCost: 15 }
             ];
             break;
         case "2":
             classes = [
-                { name: "World History", sanityCost: 6 },
-                { name: "Chemistry", sanityCost: 5 },
-                { name: "Math", sanityCost: 4 },
-                { name: "Applied Computer Programming", sanityCost: 1 },
-                { name: "AP Computer Science", sanityCost: 2 },
-                { name: "PE", sanityCost: 2 },
-                { name: "Art 1-2", sanityCost: 2 },
-                { name: "Cinematography 1-2", sanityCost: 2 },
-                { name: "Entertainment and Live Technology 1-2", sanityCost: 2 },
-                { name: "Graphic Design 1-2", sanityCost: 2 },
+                { name: "World History", sanityCost: 10},
+                { name: "Chemistry", sanityCost: 15 },
+                { name: "Math", sanityCost: 20 },
+                { name: "Applied Computer Programming", sanityCost: 10 },
+                { name: "AP Computer Science", sanityCost: 15 },
+                { name: "PE", sanityCost: 5 },
+                { name: "Art 1-2", sanityCost: 5 },
+                { name: "Cinematography 1-2", sanityCost: 10 },
+                { name: "Entertainment and Live Technology 1-2", sanityCost: 10 },
+                { name: "Graphic Design 1-2", sanityCost: 10 }
 
             ];
             break;
@@ -130,7 +130,14 @@ function updateClassOptions() {
                 { name: "Physics", sanityCost: 6 },
                 { name: "Chemistry", sanityCost: 5 },
                 { name: "Biology", sanityCost: 4 },
-                { name: "Computer Science", sanityCost: 7 }
+                { name: "Computer Science", sanityCost: 7 },
+                { name: "Applied Computer Programming", sanityCost: 10 },
+                { name: "AP Computer Science", sanityCost: 15 },
+                { name: "PE", sanityCost: 5 },
+                { name: "Art 1-2", sanityCost: 5 },
+                { name: "Cinematography 1-2", sanityCost: 10 },
+                { name: "Entertainment and Live Technology 1-2", sanityCost: 10 },
+                { name: "Graphic Design 1-2", sanityCost: 10 }
             ];
             break;
         case "4":
@@ -138,7 +145,14 @@ function updateClassOptions() {
                 { name: "Physics", sanityCost: 6 },
                 { name: "Chemistry", sanityCost: 5 },
                 { name: "Biology", sanityCost: 4 },
-                { name: "Computer Science", sanityCost: 7 }
+                { name: "Computer Science", sanityCost: 7 },
+                { name: "Applied Computer Programming", sanityCost: 10 },
+                { name: "AP Computer Science", sanityCost: 15 },
+                { name: "PE", sanityCost: 5 },
+                { name: "Art 1-2", sanityCost: 5 },
+                { name: "Cinematography 1-2", sanityCost: 10 },
+                { name: "Entertainment and Live Technology 1-2", sanityCost: 10 },
+                { name: "Graphic Design 1-2", sanityCost: 10 }
             ];
             break;
         // Add cases for subsequent years as needed
